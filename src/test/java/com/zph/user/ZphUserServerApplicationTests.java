@@ -1,4 +1,4 @@
-package com.zph.securitycheck;
+package com.zph.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ZphSecuritycheckserverApplicationTests {
+public class ZphUserServerApplicationTests {
 
 	@Test
 	public void contextLoads() {

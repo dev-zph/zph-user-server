@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.zph.securitycheck</groupId>
-	<artifactId>zph-securitycheck-server</artifactId>
+	<groupId>com.zph.user</groupId>
+	<artifactId>zph-user-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>zph-securitycheckserver</name>
-	<description>securitycheck for all items </description>
+	<name>zph-user-server</name>
+	<description>user model </description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -80,6 +80,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 	<build>
 		<plugins>
 			<plugin>
