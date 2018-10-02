@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 本地token验证器, 不经过UAA直接验证, 能提高性能和效率
- * Created by zhuzhixian on 2017/08/06.
+ * Created by zhangpenghui on 2017/08/06.
  */
 @Component
 public class LocalTokenServices implements ResourceServerTokenServices{
